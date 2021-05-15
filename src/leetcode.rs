@@ -8,3 +8,4 @@ pub mod solution153_rs;
 pub mod solution1720_rs;
 pub mod solution1_rs;
 pub mod solution213_rs;
+pub mod solution263_rs;
