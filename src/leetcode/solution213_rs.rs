@@ -7,9 +7,9 @@ impl Solution {
         let n = nums.len();
 
         if n == 0 {
-            return 0;
+            0
         } else if n == 1 {
-            return nums[0];
+            nums[0]
         } else {
             max(Self::helper(&nums[0..n - 1]), Self::helper(&nums[1..n]))
         }

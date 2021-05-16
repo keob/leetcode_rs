@@ -36,19 +36,19 @@ impl Trie<i32> {
     }
 
     fn get_max(&self, x: i32) -> i32 {
-        let mut p = self.root.clone();
-        let mut m = 0;
+        let mut root_clone = self.root.clone();
+        let mut res = 0;
 
         (0..31).rev().for_each(|k| {
-            p = {
-                let bor = p.borrow();
+            root_clone = {
+                let bor = root_clone.borrow();
                 let (a, b) = if x & (1 << k) == 0 {
                     (bor.right.as_ref(), bor.left.as_ref())
                 } else {
                     (bor.left.as_ref(), bor.right.as_ref())
                 };
                 if let Some(a) = a {
-                    m |= 1 << k;
+                    res |= 1 << k;
                     a.clone()
                 } else if let Some(b) = b {
                     b.clone()
@@ -57,7 +57,7 @@ impl Trie<i32> {
                 }
             };
         });
-        m
+        res
     }
 }
 

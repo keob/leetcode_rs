@@ -3,7 +3,7 @@ pub struct Solution;
 impl Solution {
     pub fn is_valid_serialization(preorder: String) -> bool {
         let mut stack = Vec::new();
-        let preorder: Vec<&str> = preorder.split_terminator(",").collect();
+        let preorder: Vec<&str> = preorder.split_terminator(',').collect();
 
         for s in preorder.into_iter() {
             if s != "#" {
