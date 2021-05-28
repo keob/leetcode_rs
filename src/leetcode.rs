@@ -19,3 +19,4 @@ pub mod solution377_rs;
 pub mod solution389_rs;
 pub mod solution421_rs;
 pub mod solution810_rs;
+pub mod solution461_rs;
