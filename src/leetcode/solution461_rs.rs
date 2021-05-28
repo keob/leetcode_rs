@@ -9,7 +9,7 @@ impl Solution {
             s = s & (s - 1);
         }
 
-        return res;
+        res
     }
 }
 
