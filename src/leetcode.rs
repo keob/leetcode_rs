@@ -1,4 +1,5 @@
 pub mod solution1006_rs;
+pub mod solution1035_rs;
 pub mod solution1047_rs;
 pub mod solution1143_rs;
 pub mod solution118_rs;
