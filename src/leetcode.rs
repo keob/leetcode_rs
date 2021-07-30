@@ -7,6 +7,7 @@ pub mod solution118_rs;
 pub mod solution119_rs;
 pub mod solution137_rs;
 pub mod solution153_rs;
+pub mod solution171_rs;
 pub mod solution1720_rs;
 pub mod solution1838_rs;
 pub mod solution1_rs;
