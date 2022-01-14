@@ -28,6 +28,7 @@ pub mod solution331_rs;
 pub mod solution334_rs;
 pub mod solution338_rs;
 pub mod solution371_rs;
+pub mod solution373_rs;
 pub mod solution377_rs;
 pub mod solution389_rs;
 pub mod solution390_rs;
