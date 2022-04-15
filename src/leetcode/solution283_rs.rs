@@ -1,7 +1,7 @@
 pub struct Solution;
 
 impl Solution {
-    pub fn move_zeroes(nums: &mut Vec<i32>) {
+    pub fn move_zeroes(nums: &mut [i32]) {
         let mut left = 0;
         let mut right = 0;
 

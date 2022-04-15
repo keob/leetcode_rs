@@ -1,7 +1,7 @@
 pub struct Solution;
 
 impl Solution {
-    pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
+    pub fn remove_duplicates(nums: &mut [i32]) -> i32 {
         if nums.is_empty() {
             return 0;
         }
