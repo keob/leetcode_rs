@@ -53,3 +53,4 @@ pub mod solution728_rs;
 pub mod solution747_rs;
 pub mod solution810_rs;
 pub mod solution883_rs;
+pub mod solution908_rs;
